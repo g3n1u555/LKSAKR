@@ -80,10 +80,9 @@
   .karate_media{
     text-align: center;
   }
-}
 
 /* Small devices */
-@media only screen and (min-width: 320px) and (max-width: 999px){
+@media only screen (min-width: 320px) and (max-width: 999px){
 
   body {
     background-color: lightblue;
@@ -107,7 +106,7 @@
   p {
     text-align: center;
 }
-  
+}
 
 /* Extra small devices */
     @media only screen and (max-width: 319px) {
