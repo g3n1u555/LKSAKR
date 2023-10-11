@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 1000px) {
     
   body {
     background-color: lightblue;
@@ -82,34 +82,8 @@
     text-align: center;
   }
 
-/* Extra small devices */
-@media only screen and (max-width: 600px){
-
-  body {
-    background-color: inherit;
-  }
-
-   h1 {
-    text-align: center;
-    font-family: inherit;
-    font-size: 20px;
-    font-style: normal;
-    padding-top: auto;
-    margin-top: auto;
-  }
-
-  .kaseha_logo {
-    width: 100px;
-    height: 75px;
-    padding-top: 30px;
-
-  p {
-    text-align: center;
-}
-  }
-  
 /* Small devices */
-@media only screen and (min-width: 600px){
+@media (min-width: 320px) and (max-width: 999px){
 
   body {
     background-color: inherit;
@@ -132,9 +106,4 @@
   p {
     text-align: center;
 }
-}
-
-/* Medium devices */
-@media only screen and (min-width: 768px){
-   
-}
+  }
