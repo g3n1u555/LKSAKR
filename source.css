@@ -1,4 +1,5 @@
 /* for desktops */
+@media only screen (min-width: 1000px) {
   body {
     background-color: lightblue;
   }
@@ -79,6 +80,7 @@
   .karate_media{
     text-align: center;
   }
+}
 
 /* Small devices */
 @media screen (min-width: 320px) and (max-width: 999px){
