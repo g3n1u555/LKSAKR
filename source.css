@@ -1,5 +1,5 @@
 
-@media (min-width: 1000px) {
+@media screen (min-width: 1000px) {
     
   body {
     background-color: lightblue;
@@ -83,7 +83,7 @@
   }
 
 /* Small devices */
-@media (min-width: 320px) and (max-width: 999px){
+@media screen (min-width: 320px) and (max-width: 999px){
 
   body {
     background-color: inherit;
@@ -110,7 +110,7 @@
   }
 
 /* Extra small devices */
-    @media (max-width: 319px) {
+    @media screen (max-width: 319px) {
 
         body {
            background-color: lightblue; 
