@@ -86,7 +86,7 @@
 @media screen (min-width: 320px) and (max-width: 999px){
 
   body {
-    background-color: inherit;
+    background-color: lightblue;
   }
 
    h1 {
