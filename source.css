@@ -107,7 +107,10 @@
 
   p {
     text-align: center;
-}
+  }
+
+  .navbar {
+    width: 100%;
 }
 
 /* Extra small devices */
