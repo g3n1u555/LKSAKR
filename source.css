@@ -1,5 +1,5 @@
 /* for desktops */
-@media screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px){
   body {
     background-color: lightblue;
   }
@@ -81,9 +81,10 @@
     text-align: center;
   }
 }
-/* Small devices */
-/*
-@media screen (min-width: 320px) and (max-width: 999px){
+
+/* Mobile phones */
+
+@media only screen and (max-width: 620px){
 
   body {
     background-color: lightblue;
@@ -108,7 +109,7 @@
     text-align: center;
 }
 }
-*/
+
 /* Extra small devices */
 /*
     @media screen and (max-width: 319px) {
