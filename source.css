@@ -82,6 +82,7 @@
   }
 }
 /* Small devices */
+7*
 @media screen (min-width: 320px) and (max-width: 999px){
 
   body {
@@ -107,8 +108,9 @@
     text-align: center;
 }
 }
-
+*/
 /* Extra small devices */
+/*
     @media screen and (max-width: 319px) {
 
         body {
@@ -133,4 +135,4 @@
             padding-top: 30px;
          }
     }
-        
+        */
