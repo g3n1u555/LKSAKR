@@ -40,6 +40,9 @@
     height: 150px;
     padding-left: -20px;
     padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   ul {
@@ -103,8 +106,9 @@
     width: 100px;
     height: 75px;
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
   p {
@@ -135,34 +139,8 @@
     width: 100px;
     height: 75px;
     padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
-  
-/* Extra small devices */
-/*
-    @media screen and (max-width: 319px) {
-
-        body {
-           background-color: lightblue; 
-        }
-
-        h1 {
-            text-align: center;
-            font-family: inherit;
-            font-size: 20px
-        }
-
-        p {
-            text-align: center;
-            font-family: inherit;
-            font-size: 20px;
-        }
-
-         .kaseha_logo {
-            width: 100px;
-            height: 75px;
-            padding-top: 30px;
-         }
-    }
-        */
+}
