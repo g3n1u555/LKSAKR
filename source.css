@@ -119,7 +119,7 @@
     width: 200px;
 }
   .navbar a {
-    background-color: #eee;
+    background-color: #111;
     color: black;
     display: block;
     padding: 12px;
@@ -129,7 +129,7 @@
   .navbar a:active {
     background-color: #04AA6D;
   }
-  
+
   h4{
     text-align: center;  
     }  
