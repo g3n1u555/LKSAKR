@@ -1,5 +1,6 @@
 /* for desktops */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px
+                  
   body {
     background-color: lightblue;
   }
@@ -79,9 +80,10 @@
     background-color: #04AA6D;
   }
 
-  .karate_media{
+  .karate_media {
     text-align: center;
   }
+  
 }
 
 /* Mobile phones */
@@ -141,6 +143,7 @@
   .navbar {
     width: 615px;
   }
+  
   .navbar a {
     background-color: #333;
     color: white;
@@ -153,9 +156,12 @@
     background-color: #04AA6D;
   }
 
-  h4{
+  h4 {
     text-align: center;  
-    }  
+    }
+
+  .active {
+    background-color: #04AA6D;
 }
 
 /* tablets */
@@ -198,6 +204,18 @@
     overflow: hidden;
     background-color: #333;
   }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
   
   .navbar {
     width: 615px;
@@ -210,6 +228,10 @@
   }
 
   .navbar a:active{
+    background-color: #04AA6D;
+  }
+
+  .active {
     background-color: #04AA6D;
   }
   
