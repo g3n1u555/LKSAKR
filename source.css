@@ -170,8 +170,14 @@
     padding-top: -20px;
   }
 
+  ul {
+    list-style-type: none;
+    background-color: #333;
+  }
+  
   .navbar {
     width: 800px;
+    list-style-type: none;
   }
 
   .navbar a {
