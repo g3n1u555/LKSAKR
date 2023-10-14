@@ -75,14 +75,6 @@
   li a:hover:not(.active) {
     background-color: #111;
   }
-
-  .active {
-    background-color: #04AA6D;
-  }
-
-  .karate_media {
-    text-align: center;
-  }
   
 }
 
@@ -126,6 +118,7 @@
     margin-top: -8px;
     overflow: hidden;
     background-color: #333;
+    width: 620px;
   }
 
   li {
@@ -139,29 +132,11 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  .navbar {
-    width: 620px;
-  }
-  
-  .navbar a {
-    background-color: #333;
-    color: white;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  }
-
-  .navbar a:active {
-    background-color: #04AA6D;
-  }
 
   h4 {
     text-align: center;  
     }
-
-  .active {
-    background-color: #04AA6D;
+  
 }
 
 /* tablets */
@@ -177,7 +152,7 @@
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
   }
 
   h1 {
@@ -222,5 +197,12 @@
   li a:active{
     background-color: #04AA6D;
   }
-  
+
+    li a:hover {
+    background-color: #111;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
 }
