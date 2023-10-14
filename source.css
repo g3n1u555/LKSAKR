@@ -102,8 +102,8 @@
   }
 
   .kaseha_logo {
-    width: 100px;
-    height: 75px;
+    width: 140px;
+    height: 100px;
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -143,11 +143,26 @@
   }
 
   .kaseha_logo {
-    width: 100px;
-    height: 75px;
+    width: 200px;
+    height: 150px;
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
+
+  h1 {
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    padding-top: auto;
+    margin-top: auto;
+  }
+
+   p {
+    text-align: center;
+    padding-top: -20px;
+  }
+  
 }
