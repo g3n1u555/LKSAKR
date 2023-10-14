@@ -102,8 +102,8 @@
   }
 
   .kaseha_logo {
-    width: 140px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -116,11 +116,11 @@
   }
 
   .navbar {
-    width: 200px;
+    width: 600px;
 }
   .navbar a {
-    background-color: #111;
-    color: black;
+    background-color: #333;
+    color: white;
     display: block;
     padding: 12px;
     text-decoration: none;
@@ -163,6 +163,20 @@
    p {
     text-align: center;
     padding-top: -20px;
+  }
+
+  .navbar {
+    width: 600px;
+  }
+
+  .navbar a {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar a:active{
+    background-color: #04AA6D;
   }
   
 }
