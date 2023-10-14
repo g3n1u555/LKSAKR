@@ -79,6 +79,11 @@
   li a:active {
     background-color: #04AA6D;
   }
+
+  .active {
+  background-color: #04AA6D;
+  color: white;
+}
 }
 
 /* Mobile phones */
@@ -139,6 +144,11 @@
   li a:active {
     background-color: #04AA6D;
   }
+
+  .active {
+  background-color: #04AA6D;
+  color: white;
+}
 
   h4 {
     text-align: center;  
