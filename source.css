@@ -117,11 +117,17 @@
 
   ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    overflow: hidden;
+    background-color: #333;
   }
   
   .navbar {
-    width: 300px;
-    list-style-type: none;
+    width: 384px;
 }
   .navbar a {
     background-color: #333;
@@ -172,6 +178,12 @@
 
   ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    overflow: hidden;
     background-color: #333;
   }
   
