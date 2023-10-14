@@ -75,7 +75,10 @@
   li a:hover:not(.active) {
     background-color: #111;
   }
-  
+
+  li a:active {
+    background-color: #04AA6D;
+  }
 }
 
 /* Mobile phones */
@@ -131,6 +134,10 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  li a:active {
+    background-color: #04AA6D;
   }
 
   h4 {
