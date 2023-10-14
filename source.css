@@ -189,7 +189,7 @@
     margin-top: auto;
   }
 
-   p {
+  p {
     text-align: center;
     padding-top: -20px;
   }
@@ -207,26 +207,16 @@
 
   li {
     float: left;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .navbar {
     width: 999px;
   }
 
   li a {
     background-color: #333;
-    color: white;
-    text-decoration: none;
     display: block;
+    color: white;
+    text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
   }
 
   li a:active{
