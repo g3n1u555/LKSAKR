@@ -118,11 +118,11 @@
     margin-top: -8px;
     overflow: hidden;
     background-color: #333;
-    width: 620px;
   }
 
   li {
     float: left;
+    width: 620px;
   }
 
   li a {
