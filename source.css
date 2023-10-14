@@ -1,5 +1,5 @@
 /* for desktops */
-@media screen and (min-width: 1000px
+@media screen and (min-width: 1000px){
                   
   body {
     background-color: lightblue;
@@ -141,7 +141,7 @@
   }
   
   .navbar {
-    width: 615px;
+    width: 620px;
   }
   
   .navbar a {
@@ -218,13 +218,15 @@
   }
   
   .navbar {
-    width: 615px;
+    width: 999px;
   }
 
   .navbar a {
     background-color: #333;
     color: white;
     text-decoration: none;
+    display: block;
+    padding: 12px;
   }
 
   .navbar a:active{
