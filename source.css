@@ -34,9 +34,12 @@
   p {
     text-align: center;
     padding-top: -20px;
-    margin: auto;
   }
 
+  div {
+    margin: auto;
+  }
+  
   .kaseha_logo {
     width: 200px;
     height: 150px;
